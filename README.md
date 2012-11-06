@@ -2,13 +2,13 @@
 * Rozwiazania przykladowych zadan
 ## Laboratorium drógie
 
-*  Wyswietl na ekran 4 ostatnie wiersze pliku *program.c*:
+*  Wyswietl na ekran 4 ostatnie wiersze pliku *program.c* `
 
 
-````sh
+```sh
 tail -n 4 program.c
 
-````
+```
 
 * Zadanie 9: zlicz ilosc znakow z 3 pierwszych lini pliku /etc/passwd
 
@@ -23,6 +23,11 @@ cat /etc/passwd/ | head -n 3 | wc -m
 find etc -type f -follow | wc -l
 ```
 
+* Zadanie 7: Kazde slowo w osobnej lini
+
+```sh
+cat plik.txt | tr " " "\n"
+```
 
 
 
