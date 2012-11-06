@@ -1,5 +1,5 @@
 #muj pierszy readme z zadaniami :))
-Rozwiazania przykladowych zadan
+* Rozwiazania przykladowych zadan
 ## Laboratorium drógie
 
 1. Wyswietl na ekran 4 ostatnie wiersze pliku *program.c*:
