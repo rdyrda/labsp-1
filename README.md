@@ -25,13 +25,4 @@ find etc -type f -follow | wc -l
 
 
 
-3. Zadanie 8: Zlicz pliki w /etc i pod katalogach
-
-```sh
-find etc -type f -follow | wc -l
-```
-
-
-
-
 
