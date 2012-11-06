@@ -26,7 +26,7 @@ find etc -type f -follow | wc -l
 * Zadanie 7: Kazde slowo w osobnej lini
 
 ```sh
-cat plik.txt | tr " " "\n"
+cat plik.txt | tr " \t" "\n"
 ```
 
 
