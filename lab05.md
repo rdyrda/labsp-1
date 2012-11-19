@@ -1,6 +1,6 @@
 #Labolatorium 5
 
-## Zadanie 1
+### Zadanie 1
 
 ```sh
 find ~/ -maxdepth 1 -mtime -10
