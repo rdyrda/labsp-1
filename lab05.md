@@ -15,7 +15,7 @@ find / -name \*config\* -type f 2> /dev/null
 ### Zadanie 3
 
 ```sh
-find ~/ \( ! -type d -name ".git" \) -mtime 20
+find ~/ \( -type d -name ".git" -prune \) -o \( -type f -print \) 
 ```
 // praktyczniejsza wersja z mtime(modify time)
 ### Zadanie 4
