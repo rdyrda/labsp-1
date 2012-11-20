@@ -17,7 +17,7 @@ find / -name \*config\* -type f 2> /dev/null
 ```sh
 find ~/ -atime 20
 ```
-
+// praktyczniejsza wersja z mtime(modify time)
 ### Zadanie 4
 
 ```sh
