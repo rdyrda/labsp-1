@@ -1,4 +1,4 @@
-#Labolatorium 5
+#Laboratorium 5
 
 ### Zadanie 1
 
@@ -15,7 +15,7 @@ find / -name \*config\* -type f 2> /dev/null
 ### Zadanie 3
 
 ```sh
-find ~/ -atime 20
+find ~/ \(! -name ".git" \) -mtime 20
 ```
 // praktyczniejsza wersja z mtime(modify time)
 ### Zadanie 4
