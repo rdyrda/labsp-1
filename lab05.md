@@ -37,6 +37,11 @@ albo
 find . -not -iwholename '*/.git/*'
 ```
 
+albo
+
+```sh
+find . ! -regex ".*/\.git/.*"
+```
 
 ### Zadanie 4
 
