@@ -14,7 +14,7 @@ tail -n 4 program.c
 
 
 ```sh
-cat /etc/passwd/ | head -n 3 | wc -m
+cat /etc/passwd | head -n 3 | wc -m
 ```
 
 * Zadanie 8: Zlicz pliki w /etc i pod katalogach
