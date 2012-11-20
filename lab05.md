@@ -3,7 +3,7 @@
 ### Zadanie 1
 
 ```sh
-find ~/ -maxdepth 1 -mtime -10
+find ~/ -maxdepth 1 -type f -mtime -10
 ```
 
 ### Zadanie 2
