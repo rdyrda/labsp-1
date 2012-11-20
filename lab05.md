@@ -5,7 +5,7 @@
 ```sh
 find ~/ -maxdepth 1 -type f -mtime -10
 ```
-
+// -maxdepth zawsze leci pierwsze
 ### Zadanie 2
 
 ```sh
