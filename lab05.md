@@ -18,6 +18,12 @@ find / -name \*config\* -type f 2> /dev/null
 find ~/ \( -type d -name ".git" -prune \) -o \( -type f -print \) 
 ```
 // praktyczniejsza wersja z mtime(modify time)
+albo
+
+```sh
+find . -path '*/.git/*' -prune -o -print
+
+
 ### Zadanie 4
 
 ```sh
