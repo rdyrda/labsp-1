@@ -22,8 +22,13 @@ albo
 
 ```sh
 find . -path '*/.git/*' -prune -o -print
+```
 
+albo
 
+```sh
+find -mtime -20 | egrep -v '\.git'
+```
 ### Zadanie 4
 
 ```sh
