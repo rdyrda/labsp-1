@@ -57,6 +57,8 @@ rm x??
 
 ```sh
 find . -name "a??"-exec rm -rf {} \;
+```
+
 ### Zadanie 6
 
 ```sh
