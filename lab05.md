@@ -62,8 +62,11 @@ find . -name "a??"-exec rm -rf {} \;
 ```sh
 find . -mindepth 2 -maxdepth 2 -name "x??" -exec rm -rf \(\) \;
 ```
-
-### Zadanie 6
+//a to dziala na bank
+```sh
+find . -mindepth 2 -maxdepth 2 -name x?? -delete 
+```
+## Zadanie 6
 
 ```sh
 mkdir date +%Y-%m-%d
