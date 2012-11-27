@@ -54,6 +54,9 @@ find /etc \( -type f -and -name a* \) -or \( -type d -and ! - empty\) 2> /dev/nu
 ```sh
 rm x??
 ```
+
+```sh
+find . -name "a??"-exec rm -rf {} \;
 ### Zadanie 6
 
 ```sh
