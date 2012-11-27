@@ -62,7 +62,7 @@ find . -name "a??"-exec rm -rf {} \;
 ```sh
 find . -mindepth 2 -maxdepth 2 -name "x??" -exec rm -rf \(\) \;
 ```
-//a to dziala na bank
+//a to dziala podobno, i jest krocej
 ```sh
 find . -mindepth 2 -maxdepth 2 -name x?? -delete 
 ```
