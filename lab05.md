@@ -54,9 +54,13 @@ find /etc \( -type f -and -name a* \) -or \( -type d -and ! - empty\) 2> /dev/nu
 ```sh
 rm x??
 ```
-
+//podobno nie działa:
 ```sh
 find . -name "a??"-exec rm -rf {} \;
+```
+//a to podobno działa:
+```sh
+find . -mindepth 2 -maxdepth 2 -name "x??" -exec rm -rf \(\) \;
 ```
 
 ### Zadanie 6
