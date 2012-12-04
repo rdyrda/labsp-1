@@ -1,1 +1,11 @@
 123 123 wyrazenie regularne wyszukiwac wynik dopasowany po roku (?)
+
+zalicznenie:
+labs07 - skrypty
+do 22 stycznia z indeksami
+3 skrypty maks.
+--author, --help, --version
+w styczniu.
+jak sie pisze skrypt z opcjami?
+ 
+
