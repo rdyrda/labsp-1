@@ -3,26 +3,26 @@
 ## Zadanie 1
 
 ```sh
-cos
+grep . plik.txt
 ```
 ## Zadanie 2
 
 ```sh
-cos2
+grep ^[0-9] pl*
 ```
 ## Zadanie 3
 
 ```sh
-cos2
+ls | grep -E '^.{8}r.*'
 ```
 ## Zadanie 4
 
 ```sh
-cos2
+grep -c bash /etc/passwd
 ```
 ## Zadanie 5
 
 ```sh
-cos2
+grep [ILVXLCDM] plik.txt
 ```
 
