@@ -27,6 +27,11 @@ grep -c "/bash$" /etc/passwd
 ## Zadanie 5
 
 ```sh
-grep [ILVXLCDM] plik.txt
+egrep -iw [ILVXLCDM]+ plik.txt
 ```
+or
+```sh
+egrep -i \\b[IVXLCDM+\\b plik.txt
+```
+
 
