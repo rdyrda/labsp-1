@@ -54,13 +54,20 @@ find /etc \( -type f -and -name a* \) -or \( -type d -and ! - empty\) 2> /dev/nu
 ```sh
 rm x??
 ```
-
+//podobno nie działa:
 ```sh
 find . -name "a??"-exec rm -rf {} \;
 ```
-
-### Zadanie 6
+//a to podobno działa:
+```sh
+find . -mindepth 2 -maxdepth 2 -name "x??" -exec rm -rf \(\) \;
+```
+//a to dziala podobno, i jest krocej
+```sh
+find . -mindepth 2 -maxdepth 2 -name x?? -delete 
+```
+## Zadanie 6
 
 ```sh
-mkdir date +%Y-%m-%d
+mkdir $(date +%Y-%m-%d)
 ```
