@@ -20,6 +20,10 @@ ls | grep -E '^.{8}r.*'
 ```sh
 grep -c bash /etc/passwd
 ```
+or
+```sh
+grep -c "/bash$" /etc/passwd
+```
 ## Zadanie 5
 
 ```sh
