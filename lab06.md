@@ -1,5 +1,5 @@
 # Laboratorium 6
-
+   :)
 ## Zadanie 1
 
 ```sh
