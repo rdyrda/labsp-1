@@ -7,5 +7,5 @@ do 22 stycznia z indeksami
 --author, --help, --version
 w styczniu.
 jak sie pisze skrypt z opcjami?
- 
+oh 
 
