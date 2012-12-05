@@ -1,6 +1,6 @@
 #muj pierszy readme z zadaniami :))
 * Rozwiazania przykladowych zadan
-## Laboratorium drógie
+### Laboratorium drógie
 
 *  Wyswietl na ekran 4 ostatnie wiersze pliku *program.c* `
 
