@@ -8,7 +8,7 @@
 number=0
 FOUND=0
 
-	for filename in *
+	for filename in *.htm
 	do
 		echo "$filename" | grep -q ".htm$"
 		if [ $? -eq $FOUND ]
